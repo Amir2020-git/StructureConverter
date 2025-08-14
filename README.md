@@ -4,10 +4,7 @@ This repository provides two Python utilities for converting atomistic simulatio
 
 Contents
 
-1. RuNNer → LAMMPS Converter
-Converts RuNNer-format structure/trajectory files into LAMMPS-readable data files.
-
-2. VASP → RuNNer Converter
+1. VASP → RuNNer Converter
 - Reads POSCAR (atomic positions, lattice vectors) and OUTCAR (energies, forces) from VASP calculations
 - Converts lengths from Ångström to Bohr and energies from eV to Hartree
 - Outputs RuNNer-formatted input.data files with:
@@ -15,3 +12,6 @@ Converts RuNNer-format structure/trajectory files into LAMMPS-readable data file
     - Atomic positions and types
     - Forces (in Hartree/Bohr)
     - Total energy (in Hartree)
+
+2. RuNNer → LAMMPS Converter
+Converts RuNNer-format structure/trajectory files into LAMMPS-readable data files.
