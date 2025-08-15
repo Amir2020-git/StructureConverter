@@ -14,4 +14,4 @@ Contents
     - Total energy (in Hartree)
 
 2. RuNNer → LAMMPS Converter
-Converts RuNNer-format structure/trajectory files into LAMMPS-readable data files.
+- Converts RuNNer-format structure/trajectory files into LAMMPS-readable data files.
